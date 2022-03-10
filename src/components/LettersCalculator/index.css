@@ -1,0 +1,56 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(to right, #1d976c, #219a6f, #93f9b9);
+  background-size: cover;
+  padding: 40px;
+  height: 100vh;
+}
+.firstSide {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  font-size: 55px;
+  font-family: 'Roboto';
+  font-weight: 800;
+  color: white;
+}
+
+.paragraph {
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: rgb(59, 45, 45);
+}
+
+.searchIcon {
+  height: 45px;
+  width: 250px;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid white;
+  font-family: 'Roboto';
+  background-color: transparent;
+  font-weight: 600;
+  color: #e7f5f0;
+  outline: none;
+}
+
+.image {
+  height: 550px;
+  width: 500px;
+}
+.count {
+  height: 60px;
+  width: 260px;
+  background-color: white;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #1d976c;
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 10px;
+}
